@@ -1,0 +1,28 @@
+Screen
+	- Desktop
+	- Tablet
+	- Mobile
+
+Booststrap 4
+	- one of the most popular CSS framework
+		- developed by Mark Otto and Jacob Thorton at Twitter
+		- realease date: august 2012
+		- open-source product
+
+Features of Bootstrap
+	- easy setup
+	- mobile-first approach
+
+Companies
+	- spotify
+	- lyft
+	- coursera
+	- twitter
+	- linkedin
+	- snapshot
+
+2 ways to incorporate bootstrap
+	1. local resources
+	2. CDN (Content Delivery Network)
+
+JS code is at the end before the body ends
