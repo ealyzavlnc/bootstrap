@@ -23,16 +23,19 @@
 </head>
 
 <body>
-		<nav>
-			<div>
+		<nav class="navbar navbar-expand-lg  navbar-white bg-dark"
+		>
+			<div class="container-fluid">
 
-				<a href="#">Profile</a>
-				<button>Submit</button>
+				<a class="navbar-brand" href="#">Profile</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+					<span class="navbar-toggler-icon"></span>
+				</button>
 
-				<div>
-					<div>
-						<a href="#">About Me</a>
-						<a href="#">Skills</a>
+				<div class="collapse navbar-collapse" id="#navbarNavAltMarkup">
+					<div class="navbar-nav">
+						<a class="nav-link active" href="#">About Me</a>
+						<a class="nav-link" href="#">Skills</a>
 					</div>
 				</div>
 
@@ -40,6 +43,33 @@
 		</nav>
 
 
+		<!-- bootstrap has classes to determine or change the color of text -->
+		<h1 class="text-center">Bootstrap Introduction</h1>
+		<h2 class="text-center">Classes of Text</h2>
+		<p class="bg-primary text-white">Primary</p>
+		<p class="bg-info text-secondary">Secondary</p>
+		<p class="bg-secondary text-danger">Success</p>
+
+
+		<!-- padding and margins in bootstrap -->
+
+		<div class="mt-5 p-3 bg-warning">
+			Bootstrap has its own responsive paddings and margins. wherein its classes, m stands for margin - mt ml mb mr. p stands for padding - pt pl pb pr
+		</div>
+
+		<div class="my-5 px-4 bg-primary text-white">
+			Bootstrap paddings and margins can be applied on specific sides
+			<ul>
+				<li>t - sets either margin or padding at the top of element: mt or pt</li>
+				<li>b - sets either margin or padding at the bottom side of our element: mb or pb</li>
+				<li>y - sets either margin or padding on y-axis, both top and bottom: my or py</li>
+				<li>x - sets either margin or padding on x-axis, both top and bottom: mx or px</li>
+				<li>l - sets either margin or padding on the left side: ml or pl</li>
+				<li>r - sets either margin or padding on the right side: mr or pr</li>
+				<li>blank - sets the margin or padding on all sides : m or p
+				</li>
+			</ul>
+		</div>
 
 		<!-- bootstrap js poppers / script -->
 		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" 
